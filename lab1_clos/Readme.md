@@ -1,7 +1,6 @@
 
 # Проектирование адресного пространства
-## Цель:
-собрать схему CLOS и распределить адресное пространство.
+## Цель: собрать схему CLOS и распределить адресное пространство.
 
 # План работы
 ## 1. Собрать топологию CLOS
@@ -48,7 +47,7 @@
 - 1 или 2 или 3 - номер Leaf (последний октет, где 1 - Leaf01,  2 - Leaf02, 3 - Leaf03)
 
 
-## Настройки Arista
+## 3. Настройки Arista
 ### Leaf1
 ```bash
 configure
@@ -71,6 +70,7 @@ interface Ethernet2
 end
 write momory
 ```
+-----
 
 ### Leaf2
 ```bash
@@ -94,6 +94,7 @@ interface Ethernet2
 end
 write momory
 ```
+--------
 
 ### Leaf3
 ```bash
@@ -117,6 +118,7 @@ interface Ethernet2
 end
 write momory
 ```
+----------
 
 ### Spine1
 ```bash
@@ -146,6 +148,7 @@ hostname Spine01
 end
 write memory
 ```
+--------
 
 ### Spine2
 ```bash
