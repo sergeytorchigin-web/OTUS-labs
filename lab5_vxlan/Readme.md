@@ -53,7 +53,6 @@ Loopback0 на каждом устройстве
 ## 2. Настройка BGP
 ### Leaf01
 ```bash
-zerotouch disable
 configure
 hostname Leaf01
 ip routing
@@ -89,7 +88,6 @@ write memory
 
 ### Leaf02
 ```bash
-zerotouch disable
 configure
 hostname Leaf02
 ip routing
